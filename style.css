@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .mukta-extralight {
+        font-family: "Mukta", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .mukta-light {
+        font-family: "Mukta", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+}
+:root{
+    --navbar-height:59px;
+}
+body{
+    background-image: url('bg3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.navbar{
+    display: flax;
+    position: relative;
+}
+
+
+.navbar ul{
+    display: flex;
+  position: relative;
+  right: -48vw;
+}
+.navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+.navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 20px auto;
+}
+.navbar ul li a:hover{
+    
+    color: orange;
+    background-color: transparent;
+}
+#section{
+   display: flex;
+   color: white;
+}
+.part-1{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 41px 25px;
+    align-items: flex-end;
+}
+.head{
+    
+    font-size: 2.5rem;
+    padding: 12px;
+    color: orange;
+}
+.pera{
+    
+    text-align: right;
+    font-size: 1.1rem;
+}
+#part-2{
+    display: flex;
+    flex-direction: column;
+    padding:  90px 145px;
+    align-items: flex-end;
+}
+#part-2 h1{
+    color: orange;
+    padding: 3px;
+    font-size: 2.8rem;
+}
+#part-2 p{
+    margin: 45px 0px;
+}
+.btn{
+    background-color: orange;
+    padding: 8px 10px;
+    margin: 4px;
+   font-size: 1.1rem;
+   border-radius: 6px;
+   border: 1px solid orange;
+}
+.btn a{
+  color: white;
+
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+}
+.btn a:hover{
+    color: orange;
+   
+}
+  
+
